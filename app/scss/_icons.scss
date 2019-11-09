@@ -1,0 +1,59 @@
+.icon {
+  display: inline-block;
+
+  // app/elements/banner/icons
+  &.logo {
+    background: url(img/icons/logo.png)no-repeat center/cover;
+    width: 170px;
+    height: 72px;
+  }
+
+  &.goal {
+    background: url(img/icons/goal.png)no-repeat center/cover;
+    width: 77px;
+    height: 70px;
+  }
+
+  &.trumpet {
+    background: url(img/icons/trumpet.png)no-repeat center/cover;
+    width: 69px;
+    height: 69px;
+  }
+
+  &.girl {
+    background: url(img/icons/girl.png)no-repeat center/cover;
+    width: 64px;
+    height: 65px;
+  }
+
+  &.message {
+    background: url(img/icons/message.png)no-repeat center/cover;
+    width: 65px;
+    height: 65px;
+  }
+
+  // app/elements/empire/icons
+  &.diamond {
+    background: url(img/icons/diamond.png)no-repeat center/cover;
+    width: 74px;
+    height: 80px;
+  }
+
+  &.one {
+    background: url(img/icons/one.png)no-repeat center/cover;
+    width: 55px;
+    height: 81px;
+  }
+
+  &.people {
+    background: url(img/icons/people.png)no-repeat center/cover;
+    width: 80px;
+    height: 80px;
+  }
+
+  &-mouse {
+    width: 23px;
+    height: 34px;
+    fill: #53556a;
+  }
+}

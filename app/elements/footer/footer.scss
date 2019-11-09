@@ -1,0 +1,32 @@
+.footer {
+  padding: 30px 0;
+  background: #172446;
+
+  &__wrap {
+    font-size: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    @media(max-width: 992px) {
+      flex-direction: column;
+    }
+  }
+
+  &__link {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 0 20px;
+    border-left: 1px solid #fff;
+
+    @media(max-width: 992px) {
+      border-left: none;
+      margin: 10px 0 0 0;
+    }
+  }
+
+  &__text {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,46 @@
+.banner.section
+  ._wrap.wrap
+    ._header
+      +icon('logo', 'banner__logo')
+      ._info
+        ._num
+          span._num.-orange 25-30 
+          | ноября в прямом эфире
+        ._descr 6-дневный онлайн-тренинг по внедрению инструментов в бизнес под руководством Александра Высоцкого
+    ._content
+      ._text
+        ._title.title Как должна выглядеть система, чтобы процветать в бизнесе
+        ._subtitle 
+          | Узнайте, как попасть в
+          span._subtitle.-yellow  “высшую лигу” 
+          | и выйти в бизнесе на следующий уровень
+        ._cost
+          ._cost.-old 80 000 руб. 
+          ._cost.-new 20 000 рублей
+        button(data-modal=".modal-form")._btn.btn Участвовать в тренинге
+        ._list-ervices
+          ._list-ervices-item
+            ._list-ervices-img
+              +icon('goal')
+            ._list-ervices-text 6 онлайн-встреч с Александром <br class="banner__br">Высоцким
+            
+          ._list-ervices-item
+            ._list-ervices-img
+              +icon('trumpet')
+            ._list-ervices-text Практические домашние <br class="banner__br">задания на внедрение <br class="banner__br">инструментов в бизнес
+
+          ._list-ervices-item
+            ._list-ervices-img
+              +icon('girl')
+            ._list-ervices-text Поддержка консультанта во <br class="banner__br">время тренинга 
+
+          ._list-ervices-item
+            ._list-ervices-img
+              +icon('message')
+            ._list-ervices-text Ответы на вопросы по <br class="banner__br">внедрению
+
+      img(src="img/banner-img.png", alt="#")._img
+    ._flipping-down
+      ._flipping-down-text Листать вниз
+      +svg('mouse')
+

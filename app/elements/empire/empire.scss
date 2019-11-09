@@ -1,0 +1,78 @@
+.empire {
+  background: #172446 url(img/empire-bg.png)no-repeat center/cover;
+  padding: 150px 0 100px 0;
+  position: relative;
+  margin: -150px 0 0 0;
+
+  @media(max-width: 1250px) {
+    margin: 0;
+  }
+
+  @media(max-width: 576px) {
+    padding: 70px 0 50px 0;
+  }
+
+  &__wrap {
+    width: 1205px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px 0 0 0;
+    width: 100%;
+
+    @media(max-width: 1200px) {
+      justify-content: center;
+    }
+
+    @media(max-width: 830px) {
+      flex-direction: column;
+    }
+  }
+
+  &__list-item {
+    max-width: 370px;
+    width: 100%;
+
+    &:first-child {
+
+
+      @media(max-width: 1200px) {
+        margin: 0 50px 0 0;
+      }
+
+      @media(max-width: 830px) {
+        margin: 0;
+      }
+    }
+
+    &:nth-child(n+3) {
+      margin: 50px 0 0 0;
+    }
+
+    @media(max-width: 830px) {
+      margin: 50px 0 0 0;
+    }
+  }
+
+  &__list-item-title {
+    color: #fc981c;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.88px;
+
+    @media(max-width: 1200px) {
+      font-size: 21px;
+      min-height: 48px;
+    }
+  }
+
+  &__list-item-descr {
+    font-size: 18px;
+    letter-spacing: 0.72px;
+    margin: 20px 0 0 0;
+  }
+}
